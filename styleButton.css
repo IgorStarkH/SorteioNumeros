@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    flex: 1;
+    border-radius: 0;
+    margin: 0; 
+    padding: 10px 20px; 
+    border-right: 1px solid white;
+}
+
+.btn:last-child {
+    border-right: none; 
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+}
